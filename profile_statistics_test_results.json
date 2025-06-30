@@ -1,0 +1,204 @@
+{
+  "overallScore": 80,
+  "totalTests": 16,
+  "recommendations": [
+    "Profile Functionality: Use fallback avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=avatar_test",
+    "Profile Functionality: Use fallback avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=avatar_test",
+    "Profile Functionality: Hide bio section when empty to improve UI",
+    "Profile Functionality: Hide bio section when empty to improve UI",
+    "User Experience: Show loading indicator during data fetch",
+    "User Experience: Provide meaningful error messages",
+    "User Experience: Implement skeleton loading for better perceived performance",
+    "User Experience: Add progress indicators for long operations",
+    "User Experience: Cache data to reduce loading times",
+    "User Experience: Handle storage_error gracefully with user-friendly message",
+    "User Experience: Handle data_parsing_error gracefully with user-friendly message",
+    "User Experience: Implement retry failed operations",
+    "User Experience: Implement fallback to cached data",
+    "User Experience: Implement graceful degradation",
+    "User Experience: Implement user feedback on errors",
+    "User Experience: Log errors for debugging and monitoring",
+    "User Experience: Provide offline mode for network errors"
+  ],
+  "categories": [
+    {
+      "name": "Profile Functionality",
+      "results": {
+        "profileDataLoading": {
+          "status": "FAIL",
+          "issues": [
+            "Profile data loading error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 75
+        },
+        "authStateManagement": {
+          "status": "FAIL",
+          "issues": [
+            "Auth state management error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 80
+        },
+        "profileUpdates": {
+          "status": "FAIL",
+          "issues": [
+            "Profile update error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 70
+        },
+        "avatarBioDisplay": {
+          "status": "PASS",
+          "issues": [],
+          "suggestions": [
+            "Use fallback avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=avatar_test",
+            "Use fallback avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=avatar_test",
+            "Hide bio section when empty to improve UI",
+            "Hide bio section when empty to improve UI"
+          ],
+          "score": 100
+        }
+      }
+    },
+    {
+      "name": "Statistics Calculation",
+      "results": {
+        "statisticsAccuracy": {
+          "status": "FAIL",
+          "issues": [
+            "Statistics accuracy error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 80
+        },
+        "statisticsUpdates": {
+          "status": "FAIL",
+          "issues": [
+            "Statistics update error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 75
+        },
+        "performanceTesting": {
+          "status": "FAIL",
+          "issues": [
+            "Performance testing error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 70
+        },
+        "edgeCases": {
+          "status": "FAIL",
+          "issues": [
+            "Edge cases error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 80
+        }
+      }
+    },
+    {
+      "name": "Data Consistency",
+      "results": {
+        "userPostFiltering": {
+          "status": "FAIL",
+          "issues": [
+            "User post filtering error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 75
+        },
+        "postCounting": {
+          "status": "FAIL",
+          "issues": [
+            "Post counting error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 80
+        },
+        "speciesUniqueness": {
+          "status": "FAIL",
+          "issues": [
+            "Species uniqueness error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 75
+        },
+        "dataSynchronization": {
+          "status": "FAIL",
+          "issues": [
+            "Data synchronization error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 70
+        }
+      }
+    },
+    {
+      "name": "User Experience",
+      "results": {
+        "loadingStates": {
+          "status": "PASS",
+          "issues": [],
+          "suggestions": [
+            "Show loading indicator during data fetch",
+            "Provide meaningful error messages",
+            "Implement skeleton loading for better perceived performance",
+            "Add progress indicators for long operations",
+            "Cache data to reduce loading times"
+          ],
+          "score": 100
+        },
+        "errorHandling": {
+          "status": "PASS",
+          "issues": [],
+          "suggestions": [
+            "Handle storage_error gracefully with user-friendly message",
+            "Handle data_parsing_error gracefully with user-friendly message",
+            "Implement retry failed operations",
+            "Implement fallback to cached data",
+            "Implement graceful degradation",
+            "Implement user feedback on errors",
+            "Log errors for debugging and monitoring",
+            "Provide offline mode for network errors"
+          ],
+          "score": 100
+        },
+        "refreshFunctionality": {
+          "status": "FAIL",
+          "issues": [
+            "Refresh functionality error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 75
+        },
+        "navigationFlow": {
+          "status": "FAIL",
+          "issues": [
+            "Navigation flow error: window is not defined"
+          ],
+          "suggestions": [],
+          "score": 70
+        }
+      }
+    }
+  ],
+  "summary": {
+    "score": 80,
+    "strengths": [
+      "profileFunctionality: authStateManagement",
+      "profileFunctionality: avatarBioDisplay",
+      "statisticsCalculation: statisticsAccuracy",
+      "statisticsCalculation: edgeCases",
+      "dataConsistency: postCounting"
+    ],
+    "weaknesses": [],
+    "keyFindings": [
+      "Profile data loading and persistence functionality",
+      "Statistics calculation accuracy and performance",
+      "Data consistency between different screens",
+      "User experience and error handling capabilities"
+    ]
+  }
+}

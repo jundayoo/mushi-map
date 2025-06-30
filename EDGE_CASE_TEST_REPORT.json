@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-06-29T04:46:49.102Z",
+  "summary": {
+    "total": 16,
+    "passed": 11,
+    "warnings": 5,
+    "failed": 0,
+    "errors": 0
+  },
+  "results": {
+    "stateManagement": [
+      {
+        "test": "Profile Screen State Refresh",
+        "status": "PASS",
+        "details": "UseFocusEffect: true, UseCallback: true"
+      },
+      {
+        "test": "Memory Leak Prevention",
+        "status": "PASS",
+        "details": "Cleanup functions detected"
+      },
+      {
+        "test": "Form State Reset",
+        "status": "PASS",
+        "details": "Form reset functionality present"
+      }
+    ],
+    "errorHandling": [
+      {
+        "screen": "LoginScreen",
+        "test": "Error Handling Implementation",
+        "status": "PASS",
+        "details": "Try-catch: true, Error alerts: true, Error states: true"
+      },
+      {
+        "screen": "RegisterScreen",
+        "test": "Error Handling Implementation",
+        "status": "PASS",
+        "details": "Try-catch: true, Error alerts: true, Error states: true"
+      },
+      {
+        "screen": "PremiumAddScreen",
+        "test": "Error Handling Implementation",
+        "status": "PASS",
+        "details": "Try-catch: true, Error alerts: true, Error states: true"
+      },
+      {
+        "screen": "ProfileScreen",
+        "test": "Error Handling Implementation",
+        "status": "PASS",
+        "details": "Try-catch: true, Error alerts: true, Error states: true"
+      }
+    ],
+    "memoryLeaks": [],
+    "deepLinking": [
+      {
+        "test": "Linking Configuration",
+        "status": "WARN",
+        "details": "No linking configuration found"
+      },
+      {
+        "test": "URL Scheme Support",
+        "status": "WARN",
+        "details": "No URL scheme handling"
+      },
+      {
+        "test": "Dynamic Link Parameters",
+        "status": "WARN",
+        "details": "No dynamic parameter handling"
+      }
+    ],
+    "backNavigation": [
+      {
+        "test": "InsectDetail Back Navigation",
+        "status": "PASS",
+        "details": "Back function: true, Back UI: true"
+      },
+      {
+        "test": "Register Screen Back Navigation",
+        "status": "PASS",
+        "details": "Back navigation implemented"
+      },
+      {
+        "test": "Hardware Back Button",
+        "status": "WARN",
+        "details": "No hardware back handling found"
+      }
+    ],
+    "integration": [
+      {
+        "test": "InsectDetail Navigation Consistency",
+        "status": "PASS",
+        "details": "Map: true, MapView: true, Profile: true"
+      },
+      {
+        "test": "Parameter Passing Consistency",
+        "status": "PASS",
+        "details": "Consistent parameter structure"
+      },
+      {
+        "test": "Authentication Integration",
+        "status": "WARN",
+        "details": "Auth integration incomplete"
+      }
+    ]
+  }
+}
