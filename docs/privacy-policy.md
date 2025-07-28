@@ -59,7 +59,7 @@
 
 プライバシーに関するご質問やご懸念がある場合は、以下までご連絡ください：
 
-**メール**：mushimap.support@gmail.com
+**メール**：mushimap.contact@gmail.com
 
 ---
 
